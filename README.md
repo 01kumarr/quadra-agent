@@ -40,10 +40,12 @@ QDRANT_COLLECTION_NAME=your_collection_name
 ## 📥 Installation Guide
 ### Clone the repo
 git clone https://github.com/01kumarr/finquagent.git
+
 cd finquagent
 
 ### Create a virtual environment
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### Install dependencies
