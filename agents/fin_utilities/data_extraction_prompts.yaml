@@ -1,0 +1,106 @@
+pan: >
+  Read the following content from the PAN image:
+  1. PAN number
+  2. Name (the first two names that you see)
+  3. Father's Name (the second two names that you see)
+  4. Date of Birth
+  Return the details strictly as valid JSON.
+  Example:
+  {
+    "PAN_number": "ABCDE1234F",
+    "Name": "John Doe",
+    "Father's_Name": "Richard Roe",
+    "DOB": "01-01-1980"
+  }
+
+aadhar: >
+  Read the following content from the Aadhar card:
+  1. Aadhar number
+  2. Name
+  3. Date of Birth
+  4. Gender
+  5. Address
+  Return the details strictly as valid JSON. Example:
+  {
+    "Aadhar_number": "1234 5678 9012",
+    "Name": "John Doe",
+    "DOB": "01-01-1988",
+    "Gender": "Male",
+    "Address": "123 Main Street, City, State, PIN: 123456"
+  }
+
+itr: >
+  Extract the following details from the ITR document:
+  1. PAN number
+  2. Assessment Year
+  3. Total Income
+  4. Tax Paid
+  5. Filing Date
+  6. Filing Type (Original/Revised)
+  Return the details strictly as valid JSON. Example:
+  {
+    "PAN_number": "ABCDE1234F",
+    "Assessment_Year": "2023-24",
+    "Total_Income": "1200000",
+    "Tax_Paid": "125000",
+    "Filing_Date": "31-07-2023",
+    "Filing_Type": "Original"
+  }
+
+form16: >
+  Extract the following details from Form 16:
+  1. PAN of Employee
+  2. PAN of Employer
+  3. Assessment Year
+  4. Employee Name
+  5. Employer Name
+  6. Gross Total Income
+  7. Total Tax Deducted
+  8. Summary of amount paid/credited in Q1
+  9. Summary of tax deducted at source in Q1
+  10. Summary of amount paid/credited in Q2
+  11. Summary of tax deducted at source in Q2
+  12. Summary of amount paid/credited in Q3
+  13. Summary of tax deducted at source in Q3
+  14. Summary of amount paid/credited in Q4
+  15. Summary of tax deducted at source in Q4
+  16. Period of Employment
+  17. TAN of the Employer
+  Return the details strictly as valid JSON. Example:
+  {
+    "Employee_PAN": "ABCDE1234F",
+    "Employer_PAN": "ZYXWV9876G",
+    "Assessment_Year": "2023-24",
+    "Employee_Name": "John Doe",
+    "Employer_Name": "ABC Company Ltd",
+    "Gross_Total_Income": "1200000",
+    "Total_Tax_Deducted": "120000",
+    "Summary of amount paid/credited in Q1": "300000",
+    "Summary of tax deducted at source in Q1":"30000",
+    "Summary of amount paid/credited in Q2": "300000",
+    "Summary of tax deducted at source in Q2":"30000",
+    "Summary of amount paid/credited in Q3": "300000",
+    "Summary of tax deducted at source in Q3":"30000",
+    "Summary of amount paid/credited in Q4": "300000",
+    "Summary of tax deducted at source in Q4":"30000",
+    "Employment_Period": "01-04-2022 to 31-03-2023",
+    "Employer_TAN": "ABCDE1234F"
+  }
+
+
+bankstatement: >
+  Extract the following details from the Bank Statement:
+  1. Account Holder Name
+  2. Bank Name
+  3. Account Number
+  4. Statement Period
+  5. Address of Account Holder
+  
+  Return the details strictly as valid JSON. Example:
+  {
+    "Account_Holder_Name": "John Smith",
+    "Bank_Name": "HDFC Bank",
+    "Account_Number": "XXXX1234",
+    "Statement_Period": "01-04-2022 to 31-03-2023",
+    "Address": "GA Plot No. 73, Niladri Vihar, Bhubaneswar, Odisha"
+  }
