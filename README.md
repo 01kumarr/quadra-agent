@@ -29,17 +29,17 @@ uuid	                       Unique ID generation for vector entries
 
 ### make sure to have .env file in your root directory and includes these apis
 OPENAI_API_KEY=your-openai-api-key
+
 QDRANT_API_KEY=your-qdrant-api-key
+
 QDRANT_HOST=http://localhost:6333
+
 QDRANT_COLLECTION_NAME=your_collection_name
 
 
 ## 📥 Installation Guide
-bash
-Copy
-Edit
 ### Clone the repo
-git clone https://github.com/your-username/finquagent.git
+git clone https://github.com/01kumarr/finquagent.git
 cd finquagent
 
 ### Create a virtual environment
